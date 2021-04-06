@@ -1,0 +1,17 @@
+{
+  "worker": {
+    "id": 1,
+    "name": "Asger",
+    "age": 23
+  },
+  "jobs" : [
+    {
+      "name": "Bartender",
+      "pay": 150
+    },
+    {
+      "name": "Scrum master",
+      "pay": 250
+    }
+  ]
+}

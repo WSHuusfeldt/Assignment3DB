@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.eclipse.scout.rt:org.eclipse.scout.json:11.0.12" type="repository">
+    <properties maven-id="org.eclipse.scout.rt:org.eclipse.scout.json:11.0.12" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.scout.json-11.0.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

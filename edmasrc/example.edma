@@ -1,0 +1,22 @@
+ValueDomain Id : Integer[1..1000]
+ValueDomain Name : String[1..MAX]
+ValueDomain Age : Integer[1..99]
+ValueDomain Pay : Integer[1..MAX]
+
+ValueDomain Worker : Struct{
+    id : Id,
+    name : Name,
+    age : Age
+}
+
+ValueDomain Job : Struct{
+    name : Name,
+    pay : Pay
+}
+
+ValueDomain Jobs : List<Job>
+
+ValueDomain Overall : Struct{
+    worker : Worker,
+    jobs : Jobs
+}
